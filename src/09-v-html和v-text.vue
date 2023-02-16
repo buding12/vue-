@@ -1,29 +1,20 @@
 <template>
   <div>
-    
+     <p v-html="str"></p>   
+     <p v-text="str"></p>     
   </div>
 </template>
 
 <script>
 export default {
-  name: 'VuecliDemoHelloWorld',
-
   data() {
     return {
-      
+      str:'<span>啦啦啦</span>'
     };
-  },
-
-  mounted() {
-    
-  },
-
-  methods: {
-    
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style  scoped>
 
 </style>
